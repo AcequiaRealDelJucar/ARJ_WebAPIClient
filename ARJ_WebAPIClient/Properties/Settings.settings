@@ -1,0 +1,76 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ARJ_WebAPIClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ObtenerConsumo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ObtenerConsumo/{0}/{1}/{2}</Value>
+    </Setting>
+    <Setting Name="ProgramarTurnos" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ProgramarTurnos</Value>
+    </Setting>
+    <Setting Name="EliminarTurnos" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/EliminarTurnos</Value>
+    </Setting>
+    <Setting Name="AbrirValvula" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/AbrirValvula/{0}</Value>
+    </Setting>
+    <Setting Name="CerrarValvula" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/CerrarValvula/{0}</Value>
+    </Setting>
+    <Setting Name="EliminarTurnosCabezal" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/EliminarTurnosCabezal</Value>
+    </Setting>
+    <Setting Name="ProgramarCabezal" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ProgramarCabezal</Value>
+    </Setting>
+    <Setting Name="ObtenerLecturaContadores" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ObtenerLecturaContadores</Value>
+    </Setting>
+    <Setting Name="ModificarLecturaContador" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ModificarLecturaContador/{0}/{1}</Value>
+    </Setting>
+    <Setting Name="ProgramarContador" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ProgramarContador</Value>
+    </Setting>
+    <Setting Name="ObtenerConsumoCabezal" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ObtenerConsumoCabezal/{0}/{1}/{2}</Value>
+    </Setting>
+    <Setting Name="ComprobarEstadoProgramacionContadores" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ComprobarEstadoProgramacionContadores</Value>
+    </Setting>
+    <Setting Name="EstadoValvula" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/EstadoValvula/{0}</Value>
+    </Setting>
+    <Setting Name="ObtenerAverias" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ObtenerAveriasRiego/{0}</Value>
+    </Setting>
+    <Setting Name="ProgramarCabezalNEW" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ProgramarCabezalNEW/</Value>
+    </Setting>
+    <Setting Name="ObtenerConsumosFueraTurnoCabezal" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/ObtenerConsumosFueraTurnoCabezal/{0}/{1}/{2}</Value>
+    </Setting>
+    <Setting Name="Login" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">App/Login</Value>
+    </Setting>
+    <Setting Name="Datos" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">App/Datos</Value>
+    </Setting>
+    <Setting Name="ObtenerVolumenCabezales" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SistemaRiego/Cabezales</Value>
+    </Setting>
+    <Setting Name="BaseAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://192.168.25.150:83/api/</Value>
+    </Setting>
+    <Setting Name="ServerURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://192.168.25.150:83</Value>
+    </Setting>
+    <Setting Name="actualConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.25.202\sql2k17;Initial Catalog=actual_back;User ID=sa;Password=SQL2017Acequia;&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.25.202\sql2k17;Initial Catalog=actual_back;User ID=sa;Password=SQL2017Acequia;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

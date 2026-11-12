@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARJ_WebAPIClient", "ARJ_WebAPIClient\ARJ_WebAPIClient.csproj", "{39D845D0-6428-4939-B55F-0E894C4F49A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARJCore", "..\ARJCore\ARJCore\ARJCore.csproj", "{5B7559B6-5B6D-47B3-9F44-E4A149899248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARJ_Utils", "..\ARJ_Utils\ARJ_Utils\ARJ_Utils.csproj", "{3279F056-27AF-464D-9393-FFFF7D2F9912}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D845D0-6428-4939-B55F-0E894C4F49A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D845D0-6428-4939-B55F-0E894C4F49A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D845D0-6428-4939-B55F-0E894C4F49A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D845D0-6428-4939-B55F-0E894C4F49A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7559B6-5B6D-47B3-9F44-E4A149899248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7559B6-5B6D-47B3-9F44-E4A149899248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7559B6-5B6D-47B3-9F44-E4A149899248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7559B6-5B6D-47B3-9F44-E4A149899248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3279F056-27AF-464D-9393-FFFF7D2F9912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3279F056-27AF-464D-9393-FFFF7D2F9912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3279F056-27AF-464D-9393-FFFF7D2F9912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3279F056-27AF-464D-9393-FFFF7D2F9912}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
